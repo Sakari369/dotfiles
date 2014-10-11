@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/sakari/Documents/Kehitys/Sivustot/GeoKone/server/node_modules'
+let g:netrw_dirhist_2='/Users/sakari/Documents/Kehitys/Sivustot/GeoKone/client/src'
+let g:netrw_dirhist_3='/private/tmp/YouCompleteMe/cpp/ycm/ClangCompleter'
+let g:netrw_dirhist_4='/Users/sakari/.vim/bundle/YouCompleteMe'
+let g:netrw_dirhist_5='/Users/sakari/Documents/Kehitys/c/OpenGL3/triangleStrips'
+let g:netrw_dirhist_6='/private/tmp/foo'
+let g:netrw_dirhist_7='/Users/sakari/Documents/Kehitys/c/OculusSDK/Samples/OculusRoomTiny'
+let g:netrw_dirhist_8='/Users/sakari/Documents/Kehitys/Duunit/beatsy/app/controllers'
+let g:netrw_dirhist_9='/Users/sakari/Documents/Kehitys/Sivustot/GeoKone/scene-renderer/src'

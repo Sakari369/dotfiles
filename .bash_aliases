@@ -1,0 +1,13 @@
+alias irssi="ssh -t kapsi screen -r"
+alias ls="ls $LS_OPTIONS"
+alias top="top -o cpu -R -F -s 2"
+alias xc="xcodebuild -activetarget -activeconfiguration"
+alias ff="open -a /Applications/Firefox.app/ "
+alias safari="open -a /Applications/Safari.app/ "
+alias chrome="open -a /Applications/Google\ Chrome.app/ "
+
+alias tol="xgeom 52 80 0 0"
+alias tor="xgeom 52 80 780 0"
+alias python_site_packages="python -c 'from distutils.sysconfig import get_python_lib; print get_python_lib()'"
+alias cdproj="cd ~/Documents/Kehitys/Sivustot/geokone/client"
+alias cdproj2="cd ~/Documents/Kehitys/java/workspace/GeoKone"
