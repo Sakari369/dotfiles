@@ -12,6 +12,7 @@ syntax on
 set hlsearch
 set gfn=Inconsolata:h18
 set go-=T
+"colorscheme solarized
 colorscheme madeofcode
 
 if exists('&macatsui')

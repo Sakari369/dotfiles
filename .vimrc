@@ -239,5 +239,9 @@ let g:html_use_encoding = "utf8"
 let g:html_indent_tags = ['p', 'li']
 
 " YouCompleteMe
-"let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/global_ycm_extra.conf'
-"let g:ycm_confirm_extra_conf = '0'
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/global_ycm_extra.conf'
+let g:ycm_confirm_extra_conf = '0'
+
+" Ignores
+set wildignore+=*.o,*~
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|dojo)|(\.(swp|png|jpg|git|pyc|o|so))$'
