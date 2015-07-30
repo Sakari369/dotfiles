@@ -90,7 +90,7 @@ augroup vimrcEx
 	au!
 
 	" For all text files set 'textwidth' to 78 characters.
-	" autocmd FileType text setlocal textwidth=78
+	autocmd FileType text call FT_text()
 
 augroup END
 
@@ -148,6 +148,12 @@ endfunction
 
 function! FT_html()
 	setlocal tabstop=2 shiftwidth=2
+endfunction
+
+function! FT_text()
+	setlocal textwidth=78
+	setlocal background=light
+	colorscheme morning
 endfunction
 
 function! FT_js()
@@ -245,3 +251,7 @@ let g:ycm_confirm_extra_conf = '0'
 " Ignores
 set wildignore+=*.o,*~
 let g:ctrlp_custom_ignore = '\v[\/](node_modules|dojo)|(\.(swp|png|jpg|git|pyc|o|so))$'
+
+" Airline
+let g:airline_powerline_fonts = 1
+let g:airline_theme = 'solarized'

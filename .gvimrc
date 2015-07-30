@@ -10,7 +10,7 @@ map! <S-Insert> <MiddleMouse>
 let c_comment_strings=1
 syntax on
 set hlsearch
-set gfn=Inconsolata:h18
+set gfn=Inconsolata\ for\ Powerline:h18
 set go-=T
 "colorscheme solarized
 colorscheme madeofcode
