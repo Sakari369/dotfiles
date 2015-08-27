@@ -1,3 +1,3 @@
 function irssi
-	command ssh -t kapsi screen -r $argv
+	command ssh -t app.geokone.net screen -r $argv
 end

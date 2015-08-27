@@ -1,0 +1,4 @@
+function runserver
+	cd ~/dvl/Sivustot/GeoKone/server
+	node app.js
+end
