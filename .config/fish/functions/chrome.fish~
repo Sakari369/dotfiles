@@ -1,3 +1,0 @@
-function chrome
-	command open -a /Applications/Chrome.app/ $argv
-end
