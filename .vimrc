@@ -97,7 +97,7 @@ augroup END
 autocmd BufEnter *.m set filetype=objc
 autocmd BufEnter *.pjs,*.pde set filetype=java
 autocmd BufEnter *.coffee set filetype=coffee
-autocmd BufEnter *.hbs set filetype=html
+autocmd BufEnter *.hbs,*.handlebars set filetype=html
 
 " C/C++
 autocmd FileType c,cpp call FT_c()
