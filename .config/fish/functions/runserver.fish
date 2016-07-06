@@ -1,4 +1,4 @@
 function runserver
-	cd ~/dvl/geokone/server
+	cd $gk/server
 	node app.js
 end
