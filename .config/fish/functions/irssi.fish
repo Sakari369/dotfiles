@@ -1,3 +1,3 @@
 function irssi
-	command ssh -t app.geokone.net screen -r $argv
+	command ssh -t beta.geokone.net screen -r -d $argv
 end
