@@ -87,15 +87,6 @@ endif
 " 'cindent' is on in C files, etc.
 filetype plugin indent on
 
-" Put these in an autocmd group, so that we can delete them easily.
-augroup vimrcEx
-	au!
-
-	" For all text files set 'textwidth' to 78 characters.
-	autocmd FileType text call FT_text()
-
-augroup END
-
 autocmd BufEnter *.m set filetype=objc
 autocmd BufEnter *.pjs,*.pde set filetype=java
 autocmd BufEnter *.coffee set filetype=coffee
@@ -150,10 +141,6 @@ endfunction
 
 function! FT_html()
 	setlocal tabstop=2 shiftwidth=2
-endfunction
-
-function! FT_text()
-	setlocal textwidth=78
 endfunction
 
 function! FT_js()
@@ -238,6 +225,7 @@ set showmode
 
 noremap <F1> :nohl<cr>
 noremap  § :NERDTreeToggle<cr>
+noremap  ` :NERDTreeToggle<cr>
 inoremap <F2> <esc>:NERDTreeToggle<cr>
 
 " 2html settings
