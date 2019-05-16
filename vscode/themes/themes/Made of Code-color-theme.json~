@@ -1,0 +1,12 @@
+{
+	"tokenColors": "./madeofcode.tmTheme",
+	"colors": {
+		"editor.background": "#090916",
+		"editorCursor.foreground": "#00FFFF",
+		"editor.foreground": "#F8F8F8",
+		"editorWhitespace.foreground": "#282A32",
+		"editor.lineHighlightBackground": "#000000",
+		"editor.selectionBackground": "#007DFF"
+	},
+	"name": "Made of Code"
+}

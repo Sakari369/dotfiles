@@ -1,0 +1,68 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+	{
+		"key": "ctrl+p",
+		"command": "-cursorUp",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+p",
+		"command": "-extension.vim_ctrl+p",
+		"when": "suggestWidgetVisible && vim.active && vim.use<C-p>"
+	},
+	{
+		"key": "ctrl+p",
+		"command": "-showPrevParameterHint",
+		"when": "editorTextFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+	},
+	{
+		"key": "ctrl+p",
+		"command": "-selectPrevSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	},
+	{
+		"key": "ctrl+p",
+		"command": "-list.focusUp",
+		"when": "listFocus && !inputFocus"
+	},
+	{
+		"key": "ctrl+p",
+		"command": "-workbench.action.quickOpenSelectPrevious",
+		"when": "inQuickOpen"
+	},
+	{
+		"key": "ctrl+q",
+		"command": "-workbench.action.quickOpenView"
+	},
+	{
+		"key": "ctrl+p",
+		"command": "workbench.action.quickOpen"
+	},
+	{
+		"key": "cmd+p",
+		"command": "-workbench.action.quickOpen"
+	},
+	{
+		"key": "ctrl+p",
+		"command": "workbench.action.quickOpenNavigateNextInFilePicker",
+		"when": "inFilesPicker && inQuickOpen"
+	},
+	{
+		"key": "cmd+p",
+		"command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+		"when": "inFilesPicker && inQuickOpen"
+	},
+	{
+		"key":"ctrl+[",
+		"command": "-extension.vim_ctrl+[",
+		"when": "editorTextFocus && vim.active && vim.use<C-[> && !inDebugRepl"
+	},
+	{
+		"key": "ctrl+[",
+		"command": "workbench.action.navigateBack"
+	},
+	{
+		"key": "ctrl+-",
+		"command": "-workbench.action.navigateBack"
+	}
+]

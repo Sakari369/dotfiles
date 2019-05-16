@@ -1,0 +1,21 @@
+{
+    "name": "made-of-code",
+    "displayName": "Made of Code",
+    "description": "Made of Code by Sakari",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Made of Code",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Made of Code-color-theme.json"
+            }
+        ]
+    }
+}
