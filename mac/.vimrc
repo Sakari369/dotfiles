@@ -11,7 +11,7 @@ set modelines=0
 set ttyfast
 set showmatch		" show matching brackets
 set autoindent
-set backup 
+set nobackup
 set ruler
 set lazyredraw
 set hlsearch
