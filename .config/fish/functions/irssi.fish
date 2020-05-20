@@ -1,3 +1,3 @@
 function irssi
-	command ssh -t beta.geokone.net screen -r -d $argv
+	command ssh -t app.omnigeometry.com screen -r -d $argv
 end

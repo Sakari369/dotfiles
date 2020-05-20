@@ -1,4 +1,4 @@
 function runserver
-	cd $gk/server
-	node app.js
+	cd $omg/server
+	env OMG_ENV="DEV_LOCAL" nodemon ./app.js
 end
